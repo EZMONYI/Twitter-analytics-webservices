@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: twitter-service
+  labels:
+    app: twitter
+spec:
+  selector:
+     app: twitter
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: NodePort

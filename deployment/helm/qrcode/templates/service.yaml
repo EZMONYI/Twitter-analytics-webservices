@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: qrcode-service
+  labels:
+    app: qrcode
+spec:
+  selector:
+     app: qrcode
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: NodePort
