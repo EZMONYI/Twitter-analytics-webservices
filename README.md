@@ -1,5 +1,3 @@
-# Twitter Analytics Webservices
-
 # Steps to build up the whole system
 
 ## 1. create cluster
